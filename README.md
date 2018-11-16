@@ -1,82 +1,20 @@
-Bitcoin Core integration/staging tree
-=====================================
+币种介绍
+	SMARTHOME是基于区块链、人工智能、物联网技术实现分散式房屋共享
+租赁应用的基础设施。致力于不基于信任的p2p房屋共享租赁交易，能够为双
+边市场提供高效且低成本的技术服务，满足双边市场的租赁活动并获得良好的体
+验感。SMARTHOME基于区块链技术为双边市场搭建了业务流程的基础设施，
+满足双边市场的信息查询、智能开锁看房、智能合约履行协议、服务摩擦处理等
+业务需求；SMARTHOME智能系统利用物联网设备盈余的算力产生SMTH，通
+过SMTH能激励业主上传租赁房屋信息，租客可以购买SMTH查看房源，业主
+和租客也可以通过SMTH实现租赁交易流转；设备商享有大部分的SMTH也可
+以让利给消费者，实现更好的销售业绩；SMARTHOME智能合约将会收取运营
+燃料费SMTH，用以软件安全运营和资金池收益，投资者可以购买SMTH享受
+SMARTHOME经济生态中的盈利权益。所有的财务账本均被写入到智能合约中，
+并公开、透明的展示给社区中。
+	SMARTHOME是去中心化的，它不属于任何人、组织、机构，只属于所有
+持有SMTH（通证）权益证明的主体。因此SMARTHOME将会通过智能合约，
+将交易产生的盈利服务费token，分配给持有SMTH的主体，共享项目的盈利
+成果。分配的智能合约是根据你持有SMTH有效时长、数量、贡献值、社区性
+质等维度计算，实现按比例分配。最终的合约分配机制需要不同社区投票决定。
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
-
-https://bitcoincore.org
-
-What is Bitcoin?
-----------------
-
-Bitcoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
-software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the Bitcoin Core software, see https://bitcoin.org/en/download, or read the
-[original whitepaper](https://bitcoincore.org/bitcoin.pdf).
-
-License
--------
-
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
-
-Development Process
--------------------
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
-
-Developer IRC can be found on Freenode at #bitcoin-core-dev.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](/doc/unit-tests.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`
-
-There are also [regression and integration tests](/qa) of the RPC interface, written
-in Python, that are run automatically on the build server.
-These tests can be run with: `qa/pull-tester/rpc-tests.py`
-
-The Travis CI system makes sure that every pull request is built for Windows
-and Linux, OSX, and that unit and sanity tests are automatically run.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+版本	V1.0.0.1
